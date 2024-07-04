@@ -52,7 +52,6 @@ h3 {
 ul {
   list-style: none;
   margin: 0;
-  padding: 0;
 }
 
 .logo {
@@ -72,7 +71,7 @@ ul {
   color: #ffffff;
 }
 
-.nav-menu-item a {
+.nav-menu-item-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
@@ -80,52 +79,52 @@ ul {
   text-decoration: none;
 }
 
-
-.address-list-item a {
-  color: #2e2f42;
-  font-size: 16px;
+.address {
   font-style: normal;
+}
+.address-list-item-link {
+  color: #434455;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.nav-menu-item a:hover,
-.address-list-item a:hover {
+.nav-menu-item-link:hover,
+.address-list-item-link:hover,
+.nav-menu-item-link:focus,
+.address-list-item-link:focus {
   color: #404bbf;
 }
 
 .hero,
 .footer {
-  background-color: #434455;
+  background-color: #2e2f42;
 }
-.hero h1 {
+.hero-h1 {
   color: #ffffff;
-  text-align: center;
   margin: 0 auto;
 }
 .section-hero-button {
   background-color: #4d5ae5;
   color: #ffffff;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
-.section-hero-button:hover {
+.section-hero-button:hover,
+.section-hero-button:focus {
   background-color: #404bbf;
 }
 
 .our-team {
   background-color: #f4f4fd;
 }
-.our-team h2 {
-  text-align: center;
-}
+
 .team-list-item {
   background-color: #ffffff;
 }
-.team-list-item h3,
-.team-list-item p {
-  text-align: center;
-}
+
 
 .footer p {
   color: #ffffff;
-  text-align: left;
 }
