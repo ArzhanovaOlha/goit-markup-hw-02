@@ -68,7 +68,7 @@ ul {
   color: #2e2f42;
 }
 .logo-light {
-  color: #ffffff;
+  color: #f4f4fd;
 }
 
 .nav-menu-item-link {
@@ -103,6 +103,8 @@ ul {
 .hero-h1 {
   color: #ffffff;
   margin: 0 auto;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 .section-hero-button {
   background-color: #4d5ae5;
@@ -115,6 +117,11 @@ ul {
 .section-hero-button:focus {
   background-color: #404bbf;
 }
+.features-list-item-h3 {
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
 .our-team {
   background-color: #f4f4fd;
@@ -125,6 +132,6 @@ ul {
 }
 
 
-.footer p {
-  color: #ffffff;
+.footer-text {
+  color: #F4F4FD;
 }
