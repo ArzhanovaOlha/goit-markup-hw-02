@@ -100,7 +100,7 @@ ul {
 .footer {
   background-color: #2e2f42;
 }
-.hero-h1 {
+.hero-title {
   color: #ffffff;
   margin: 0 auto;
   text-align: center;
@@ -117,12 +117,12 @@ ul {
 .section-hero-button:focus {
   background-color: #404bbf;
 }
-.features-list-item-h3, .team-list-item-h3 {
+.features-list-item-title, .team-list-item-title {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.our-team-h2, .our-portfolio-h2 {
+.our-team-title, .our-portfolio-title {
     line-height: 1.11;
     text-align: center;
     letter-spacing: 0.02em;
@@ -132,7 +132,7 @@ ul {
 .our-team {
   background-color: #f4f4fd;
 }
-.portfolio-list-item-h3, .team-list-item-h3 {
+.portfolio-list-item-title, .team-list-item-title {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
