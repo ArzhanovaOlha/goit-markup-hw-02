@@ -117,12 +117,18 @@ ul {
 .section-hero-button:focus {
   background-color: #404bbf;
 }
-.features-list-item-h3 {
+.features-list-item-h3, .team-list-item-h3 {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-
+.our-team-h2 {
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
 .our-team {
   background-color: #f4f4fd;
 }
@@ -130,7 +136,9 @@ ul {
 .team-list-item {
   background-color: #ffffff;
 }
-
+.team-list-item-text {
+    font-size: 16px;
+}
 
 .footer-text {
   color: #F4F4FD;
